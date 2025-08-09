@@ -30,7 +30,7 @@ pip install tensorflow opencv-python scikit-image scikit-learn matplotlib numpy
 ## ▶️ Usage
 1. Upload dataset to your local machine or Google Drive.  
 2. Update dataset & model paths in the notebook.  
-3. Run all cells in **Google Colab** or Jupyter Notebook.  
+3. Run all cells in **Google Colab** .  
 4. Trained `.h5` model files will be saved for inference.
 
 ---
