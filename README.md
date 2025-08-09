@@ -41,5 +41,3 @@ pip install tensorflow opencv-python scikit-image scikit-learn matplotlib numpy
 
 ---
 
-## 📜 License
-MIT License – Free to use, modify, and distribute.
