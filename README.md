@@ -6,7 +6,8 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![Deep Learning](https://img.shields.io/badge/Deep%20Learning-U--Net%20%7C%20ResNet50-green.svg)]()
 [![Computer Vision](https://img.shields.io/badge/Domain-Medical%20Imaging-orange.svg)]()
-[![Framework](https://img.shields.io/badge/Framework-PyTorch%20%7C%20TensorFlow-purple.svg)]()
+[![Framework](https://img.shields.io/badge/Framework-PyTorch-purple.svg)](https://pytorch.org/)
+
 
 🔗 **GitHub Repo:** https://github.com/sumits234/Research-and-Development_DH604
 
