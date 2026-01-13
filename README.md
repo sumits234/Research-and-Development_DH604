@@ -1,43 +1,43 @@
+<div align="center">
+
 # 🩸 Blood Cell Segmentation & Classification
+### Deep Learning for Multi-Class Blood Cell Classification + Mask Segmentation (ResNet50 + U-Net)
 
-Deep learning project for **multi-class blood cell classification** and **image segmentation** using **ResNet50** and **U-Net** architectures.
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
+[![Deep Learning](https://img.shields.io/badge/Deep%20Learning-U--Net%20%7C%20ResNet50-green.svg)]()
+[![Computer Vision](https://img.shields.io/badge/Domain-Medical%20Imaging-orange.svg)]()
+[![Framework](https://img.shields.io/badge/Framework-PyTorch%20%7C%20TensorFlow-purple.svg)]()
 
----
+🔗 **GitHub Repo:** https://github.com/sumits234/Research-and-Development_DH604
 
-## 🚀 Features
-- **Multi-task Model** → ResNet50 encoder + U-Net decoder for joint classification & segmentation.  
-- **Segmentation** → Binary/multi-class mask prediction via U-Net.  
-- **Customizable** → Easily adjust image size, batch size & training epochs.
-
----
-
-## 📂 Dataset Structure
-```
-data/
-  images/   # Input blood cell images
-  masks/    # Corresponding segmentation masks
-```
+</div>
 
 ---
 
-## 🛠 Installation
-```bash
-pip install tensorflow opencv-python scikit-image scikit-learn matplotlib numpy
-```
+## 📌 Project Overview
+This project focuses on **blood cell image analysis** using deep learning for:
+- **Segmentation** → predicting pixel-wise masks for blood cells
+- **Classification** → predicting blood cell type (multi-class)
+
+The system uses a **multi-task architecture** combining:
+- **ResNet50 encoder** (feature extraction)
+- **U-Net decoder** (segmentation mask generation)
 
 ---
 
-## ▶️ Usage
-1. Upload dataset to your local machine or Google Drive.  
-2. Update dataset & model paths in the notebook.  
-3. Run all cells in **Google Colab** .  
-4. Trained `.h5` model files will be saved for inference.
+## 🚀 Key Features
+- ✅ **Multi-task Learning**: joint **classification + segmentation**
+- ✅ **U-Net Segmentation**: binary / multi-class mask prediction
+- ✅ **ResNet50 Backbone**: strong feature extractor for microscopy images
+- ✅ **Customizable Training**: image size, batch size, epochs configurable
+- ✅ **Scalable Pipeline**: supports dataset expansion using generated masks
 
 ---
 
-## 📊 Output
-- **Cell Type Prediction** → Multi-class classification results.  
-- **Segmentation Mask** → Overlay mask on the original cell image.
-
----
-
+## 🧠 Model Architecture
+```txt
+Input Image
+   ↓
+ResNet50 Encoder  →  Classification Head (Cell Class)
+   ↓
+U-Net Decoder     →  Segmentation Mask (Pixel-wise)
